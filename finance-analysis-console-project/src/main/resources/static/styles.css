@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  font-size: 13px;
+  background: #ffffff;
+  color: #111111;
+}
+
+.container {
+  padding: 10px;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #666;
+  padding: 4px;
+  vertical-align: top;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+button {
+  font-family: monospace;
+  font-size: 12px;
+  min-width: 90px;
+}
+
+.form-table,
+.main-table,
+.inner-table {
+  margin-top: 10px;
+}
+
+.input-long {
+  width: 100%;
+}
+
+.section-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.error-box {
+  margin-top: 10px;
+  color: #b00020;
+  font-weight: bold;
+}
+
+.selected-row {
+  background-color: #dcdcdc;
+  font-weight: bold;
+}
+
+.inner-table tr:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.current-session-row td {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.diff-box {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.popup-box {
+  width: 900px;
+  max-width: 95%;
+  height: 70%;
+  background: white;
+  border: 1px solid #333;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-header {
+  padding: 6px;
+  border-bottom: 1px solid #666;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-content {
+  flex: 1;
+  margin: 0;
+  padding: 10px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
