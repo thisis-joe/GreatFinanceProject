@@ -1,11 +1,11 @@
-package com.example.financeconsole;
+package com.myllm.financeai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FinanceAnalysisConsoleApplication {
+public class FinanceAiApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FinanceAnalysisConsoleApplication.class, args);
+        SpringApplication.run(FinanceAiApplication.class, args);
     }
 }

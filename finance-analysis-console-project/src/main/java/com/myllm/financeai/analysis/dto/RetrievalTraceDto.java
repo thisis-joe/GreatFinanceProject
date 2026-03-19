@@ -1,4 +1,4 @@
-package com.example.financeconsole.dto;
+package com.myllm.financeai.analysis.dto;
 
 import java.util.List;
 

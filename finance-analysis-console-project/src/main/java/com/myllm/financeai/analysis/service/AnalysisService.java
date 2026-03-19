@@ -1,6 +1,6 @@
-package com.example.financeconsole.service;
+package com.myllm.financeai.analysis.service;
 
-import com.example.financeconsole.dto.*;
+import com.myllm.financeai.analysis.dto.*;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 

@@ -1,11 +1,11 @@
-package com.example.financeconsole.controller;
+package com.myllm.financeai.analysis.controller;
 
-import com.example.financeconsole.api.ApiResponse;
-import com.example.financeconsole.dto.AnalysisQueryRequest;
-import com.example.financeconsole.dto.RetrievalTraceBundleDto;
-import com.example.financeconsole.dto.SessionDetailDto;
-import com.example.financeconsole.dto.SessionSummaryDto;
-import com.example.financeconsole.service.AnalysisService;
+import com.myllm.financeai.analysis.dto.AnalysisQueryRequest;
+import com.myllm.financeai.analysis.dto.RetrievalTraceBundleDto;
+import com.myllm.financeai.analysis.dto.SessionDetailDto;
+import com.myllm.financeai.analysis.dto.SessionSummaryDto;
+import com.myllm.financeai.analysis.service.AnalysisService;
+import com.myllm.financeai.common.response.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

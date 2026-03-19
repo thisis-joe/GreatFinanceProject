@@ -1,4 +1,4 @@
-package com.example.financeconsole.api;
+package com.myllm.financeai.common.response;
 
 public record ApiResponse<T>(
         boolean success,
